@@ -23,13 +23,65 @@ p {
 
 a, 
 .btn {
-    transition: all 0.300ms ease;
+    transition: all 300ms ease;
 }
 
 /* DESKTOP NAV */
 
-nav, .nav-links {
+nav, 
+.nav-links {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: var(--background-primary);
+    text-decoration: none;
+    text-decoration-color: var(--color-title);
+}
+
+a:hover {
+    color: var(--background-primary);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: var(--color-title);
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+/* HAMBURGER MENU */
+
+#hamburguer-nav {
+    display: none;
+}
+
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
 }
