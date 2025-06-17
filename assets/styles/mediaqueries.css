@@ -1,8 +1,11 @@
 @media screen and (max-width: 1024px) {
-  #desktop-nav {
+   #desktop-nav {
     display: none;
   }
-  #hamburguer-nav {
+  #hamburger-nav {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
   }
 }
