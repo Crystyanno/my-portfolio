@@ -1,5 +1,9 @@
 @media screen and (max-width: 1024px) {
+<<<<<<< HEAD
    #desktop-nav {
+=======
+  desktop-nav {
+>>>>>>> parent of 0c59391 (added menu and scritp)
     display: none;
   }
   #hamburger-nav {
