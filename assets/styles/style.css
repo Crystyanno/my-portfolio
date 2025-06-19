@@ -236,7 +236,7 @@ section {
 .btn-color-1, 
 .btn-color-2:hover {
     background: rgb(53, 53, 53);
-    color: var(--color-title);
+    color: var(--color-text-fundo-preto);
 }
 
 .btn-color-1:hover {
@@ -253,4 +253,44 @@ section {
 
 .btn-container {
     gap: 1rem;
+}
+
+/* ABOUT SECTION */
+#about {
+    position: relative;
+}
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, 
+.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position:absolute;
+    right: 5rem;
+    bottom: 2rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: var(--color-text-fundo-preto);
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
 }
